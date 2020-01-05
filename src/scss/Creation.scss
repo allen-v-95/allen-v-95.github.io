@@ -1,0 +1,25 @@
+.creation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  border: 1px solid black;
+  margin-right: 20px;
+  .answers{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+    .answer-input{
+      margin-bottom: 10px;
+    }
+  }
+  .challenge-name{
+    margin: 20px;
+  }
+  .button-section{
+    button{
+      margin-right: 10px;
+    }
+  }
+}
